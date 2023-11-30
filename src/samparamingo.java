@@ -3,7 +3,7 @@ import java.util.Scanner;
 class samparamingo {
     public static void main(String[] args) {
         Scanner drukarka = new Scanner(System.in);
-        System.out.println("Podaj % doskonałości: ");
+        System.out.println("Podaj % doskonałości: (Zakres 0-100)");
         double percent = drukarka.nextDouble();
         double poziom;
         double wartosc;
